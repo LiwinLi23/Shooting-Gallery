@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6F58D8E24A999EA00A5CE49 /* LTScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A6F58D8D24A999EA00A5CE49 /* LTScene.sks */; };
 		D7C0B4F02312A4E500525AE2 /* StageScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D7C0B4EB2312A4E500525AE2 /* StageScene.sks */; };
 		D7C0B4F22312A4E500525AE2 /* StageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0B4ED2312A4E500525AE2 /* StageScene.swift */; };
 		D7C0B5002312A4F400525AE2 /* ScoreNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0B4F52312A4F400525AE2 /* ScoreNumber.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6F58D8D24A999EA00A5CE49 /* LTScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LTScene.sks; sourceTree = "<group>"; };
 		D7C0B4CE2312A48C00525AE2 /* Shooting Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C0B4E32312A49000525AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7C0B4EB2312A4E500525AE2 /* StageScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StageScene.sks; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				D7C0B4EB2312A4E500525AE2 /* StageScene.sks */,
 				D7C0B4ED2312A4E500525AE2 /* StageScene.swift */,
+				A6F58D8D24A999EA00A5CE49 /* LTScene.sks */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				D7C0B5012312A4F400525AE2 /* Assets.xcassets in Resources */,
 				D7C0B5032312A4F400525AE2 /* Main.storyboard in Resources */,
 				D7C0B4F02312A4E500525AE2 /* StageScene.sks in Resources */,
+				A6F58D8E24A999EA00A5CE49 /* LTScene.sks in Resources */,
 				D7C0B52123138D3F00525AE2 /* reload.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
