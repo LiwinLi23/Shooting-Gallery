@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A67ED8CB24AAB4720020F326 /* LTScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A67ED8CA24AAB4720020F326 /* LTScene.sks */; };
 		A6D7D07E24AAE5FA00225A82 /* LTDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7D07D24AAE5FA00225A82 /* LTDuck.swift */; };
-		A6D7D08024AAF04700225A82 /* LTStageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7D07F24AAF04700225A82 /* LTStageScene.swift */; };
+		A6D7D08024AAF04700225A82 /* LTScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7D07F24AAF04700225A82 /* LTScene.swift */; };
 		D7C0B4F02312A4E500525AE2 /* StageScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D7C0B4EB2312A4E500525AE2 /* StageScene.sks */; };
 		D7C0B4F22312A4E500525AE2 /* StageScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0B4ED2312A4E500525AE2 /* StageScene.swift */; };
 		D7C0B5002312A4F400525AE2 /* ScoreNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0B4F52312A4F400525AE2 /* ScoreNumber.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		A67ED8CA24AAB4720020F326 /* LTScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LTScene.sks; sourceTree = "<group>"; };
 		A6D7D07D24AAE5FA00225A82 /* LTDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTDuck.swift; sourceTree = "<group>"; };
-		A6D7D07F24AAF04700225A82 /* LTStageScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTStageScene.swift; sourceTree = "<group>"; };
+		A6D7D07F24AAF04700225A82 /* LTScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTScene.swift; sourceTree = "<group>"; };
 		D7C0B4CE2312A48C00525AE2 /* Shooting Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C0B4E32312A49000525AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7C0B4EB2312A4E500525AE2 /* StageScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StageScene.sks; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 				A67ED8CA24AAB4720020F326 /* LTScene.sks */,
 				D7C0B4EB2312A4E500525AE2 /* StageScene.sks */,
 				D7C0B4ED2312A4E500525AE2 /* StageScene.swift */,
-				A6D7D07F24AAF04700225A82 /* LTStageScene.swift */,
+				A6D7D07F24AAF04700225A82 /* LTScene.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 				D7C0B5042312A4F400525AE2 /* AppDelegate.swift in Sources */,
 				D7C0B5192312A50A00525AE2 /* GameManager.swift in Sources */,
 				D7C0B5132312A50A00525AE2 /* FireButton.swift in Sources */,
-				A6D7D08024AAF04700225A82 /* LTStageScene.swift in Sources */,
+				A6D7D08024AAF04700225A82 /* LTScene.swift in Sources */,
 				D7C0B5142312A50A00525AE2 /* Target.swift in Sources */,
 				D7C0B5062312A4F400525AE2 /* Sound.swift in Sources */,
 				D7C0B5182312A50A00525AE2 /* GameStateMachine.swift in Sources */,
