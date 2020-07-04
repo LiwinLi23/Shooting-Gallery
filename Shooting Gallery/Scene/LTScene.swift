@@ -11,10 +11,11 @@ import SpriteKit
 
 class LTScene : SKScene {
     override func didMove(to view: SKView) {
-        let node = createDuck(hasTarget: true)
-        node.position = CGPoint(x: 240, y: 160)
-        node.zPosition = 6
-        self.addChild(node)
+//        let node = createDuck(hasTarget: true)
+//        node.position = CGPoint(x: 240, y: 160)
+//        node.zPosition = 6
+//        self.addChild(node)
+        self.activeDucks()
     }
 }
 
@@ -32,5 +33,16 @@ extension LTScene {
         node.addChild(stick); node.addChild(duck)
         
         return node
+    }
+    
+    func activeDucks() {
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { timer in
+            let duck = self.createDuck(hasTarget: Bool.random())
+            duck.position = CGPoint(x: -10, y: Int.random(in: 60...90))
+            duck.zPosition = Bool.random() ? 4 : 6
+            self.scene?.addChild(duck)
+            
+            duck.run(.sequence([.moveTo(x: 850, duration: 2), .removeFromParent()]))
+        })
     }
 }
