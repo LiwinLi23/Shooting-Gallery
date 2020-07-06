@@ -10,6 +10,9 @@ import Foundation
 import SpriteKit
 
 class LTScene : SKScene {
+    
+    private var duckMoveDuration: TimeInterval?
+    
     override func didMove(to view: SKView) {
 //        let node = createDuck(hasTarget: true)
 //        node.position = CGPoint(x: 240, y: 160)
@@ -42,7 +45,10 @@ extension LTScene {
             duck.zPosition = Bool.random() ? 4 : 6
             self.scene?.addChild(duck)
             
-            duck.run(.sequence([.moveTo(x: 850, duration: 2), .removeFromParent()]))
+            self.duckMoveDuration = TimeInterval(Int.random(in:
+                duck.hasTarget! ? (2...4) : (5...7)))
+            
+            duck.run(.sequence([.moveTo(x: 850, duration: self.duckMoveDuration ?? 3), .removeFromParent()]))
         })
     }
 }
